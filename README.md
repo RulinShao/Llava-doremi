@@ -79,6 +79,13 @@ pip install -e ".[train]"
 pip install flash-attn --no-build-isolation
 ```
 
+4. Install transformers from local source
+```
+pip uninstall transformers -y
+cd transformers
+pip install -e .
+```
+
 ### Upgrade to latest code base
 
 ```Shell
