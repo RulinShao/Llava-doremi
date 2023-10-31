@@ -399,6 +399,7 @@ def preprocess_llama_2(
                     f" (ignored)"
                 )
 
+    # TODO: add domain_ids and reference_loss to inputs
     return dict(
         input_ids=input_ids,
         labels=targets,
