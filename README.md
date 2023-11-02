@@ -1,4 +1,10 @@
-# 🌋 LLaVA: Large Language and Vision Assistant
+# What's new in this repo?
+
+This repo supports automatic task-balancing for vision-language instruction tuning based on group distributionally robust optimization (Group DRO, the technique used in [Doremi](https://arxiv.org/abs/2305.10429))!
+
+
+
+# Most of the codes are borrowed from 🌋 LLaVA: Large Language and Vision Assistant
 
 *Visual instruction tuning towards large language and vision models with GPT-4 level capabilities.*
 
